@@ -1,0 +1,9 @@
+name: "Custom GitHub Action"
+description: "An example GitHub Action."
+inputs:
+  example_input:
+    description: "An example input"
+    required: true
+runs:
+  using: "node16"
+  main: "dist/index.js"
